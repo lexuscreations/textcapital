@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <title>Text Capital - Word Counter - Leter Counter</title>
+    <link rel="icon" href="fevicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Change Your Boring Text Into Stylish Capitalize">
+    <meta name="keywords" content="text capital, word counter, leter counter, character counter">
+    <meta name="author" content="lokesh vishwakarma">
+</head>
+
+<body>
+    <section>
+        <div class="formControl">
+            <textarea class="form-control input" placeholder="Write Input" id="form-control-input" cols="40" rows="19"></textarea>
+        </div>
+        <div class="formControl firCon">
+            <div class="btnSection">
+                <button class="clsBtn btns">Clear</button>
+                <br><br><br><br><br>
+                <button class="allClsBtn btns">Clear All</button>
+                <br><br><br><br><br>
+                <button class="cpyBtn btns">Copy Result</button>
+            </div>
+            <div id="mainConDiv">
+                <div class="conDiv">
+                    <label for="charCount">Character Count</label>
+                    <br>
+                    <input type="text" id="charCount" placeholder="0">
+                </div>
+                <div class="conDiv">
+                    <label for="wordCount">Word Count</label>
+                    <br>
+                    <input type="text" id="wordCount" placeholder="0">
+                </div>
+            </div>
+        </div>
+        <div class="formControl">
+            <textarea class="form-control result" placeholder="Result" id="form-control-result" cols="40" rows="19"></textarea>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

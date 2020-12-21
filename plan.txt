@@ -1,0 +1,9 @@
+Plan:
+	[-]Character Counter / Leter Counter
+	[-]Word Counter
+	[-]Para. / Sent. / -- {1} Word = Capitalise.
+
+	[-]Logo
+	[-]Responsive
+	[-]S.E.O
+	[+]Host
