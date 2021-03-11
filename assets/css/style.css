@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #131419;
+}
+
+.bgSvgConDiv {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+}
+
+.formControl {
+    box-shadow: -5px -5px 10px rgb(255 255 255 / 5%), 5px 5px 15px rgb(0 0 0 / 50%);
+    display: flex;
+    margin: 20px;
+}
+
+textarea {
+    border: none;
+    box-shadow: inset -2px -2px 6px rgb(255 255 255 / 10%), inset 2px 2px 6px rgb(0 0 0 / 80%);
+}
+
+textarea,
+button {
+    padding: 5px;
+    background: #131419;
+    outline: none;
+    font-size: 28px;
+}
+
+textarea::placeholder {
+    color: rebeccapurple;
+    line-height: 50vh;
+    text-align: center;
+}
+
+.inputTextarea {
+    color: rgb(255, 0, 85);
+}
+
+.resultTextarea {
+    color: rgb(31, 209, 120);
+}
+
+button {
+    color: #9ba69bc4;
+    height: 80px;
+    border: #fff;
+    box-shadow: -5px -5px 10px rgb(255 255 255 / 5%), 5px 5px 15px rgb(0 0 0 / 50%);
+}
+
+button:hover,
+button:focus {
+    color: green;
+}
+
+button:active {
+    color: red;
+    box-shadow: inset -2px -2px 6px rgb(255 255 255 / 10%), inset 2px 2px 6px rgb(0 0 0 / 80%);
+}
+
+.btnSectionDiv {
+    display: block;
+    text-align: center;
+}
+
+.centerBtnSectionContainerDiv {
+    display: block;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cntrBtns,
+.counterDiv {
+    margin: 10px;
+    color: #9ba69bc4;
+}
+
+#mainCenterCounterDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counterDiv input {
+    font-size: 20px;
+    width: 50px;
+    background: #131419;
+    color: #9ba69bc4;
+    text-align: center;
+}
+
+svg {
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+}
+
+.bg-decoration__svgOne {
+    background-color: red;
+    right: 55%;
+    top: 10%;
+    transform: rotate(147deg);
+}
+
+.bg-decoration__svgTwo {
+    background-color: green;
+    left: 55%;
+    bottom: 10%;
+    transform: rotate(140deg);
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        display: block;
+    }
+    .btnSectionDiv {
+        display: flex;
+    }
+    textarea {
+        width: 100%;
+    }
+}
